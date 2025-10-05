@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_TrackMariCommando_Title" ID="{9F8B6E61-6664-4153-95C2-B2E42DF7A9F7}">
+					<ChildrenList>
+						<Action Name="" ID="{442157C2-FEB8-4733-92B7-BA0BEB95D635}" ShortID="465951591">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Title" ID="{3955B112-9D72-4AF8-B1CF-3AC6FF0F11B4}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Lobby_bday" ID="{6477AB39-482B-403F-B2C2-54974DBE7BD3}">
+					<ChildrenList>
+						<Action Name="" ID="{EEAA8F28-CA6A-4BEC-BCC7-3138903524EE}" ShortID="108802288">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Season_Birthday" ID="{1FB6B8D1-F848-4D3F-A767-20E785B62EB7}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Lobby_xmas" ID="{17BE79A2-72E7-41B1-9309-37DF16EC24B5}">
+					<ChildrenList>
+						<Action Name="" ID="{EFECFD32-F835-454C-A6C0-C1E688F76FF1}" ShortID="1061651041">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Season_Xmas" ID="{6073935E-9744-4BE6-8A14-E11A492191AC}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Lobby_Halloween" ID="{E26EE6E0-2B3B-49BA-94E5-ECEBB02C69F9}">
+					<ChildrenList>
+						<Action Name="" ID="{EE56152C-3A44-4B91-AFE6-1059296700E3}" ShortID="137003064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Season_Halloween" ID="{0FC06FE9-3799-4DA0-9ED8-CFEB0FFDAC34}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Lobby_Newyear" ID="{31F46C95-2A00-4C42-ADAF-457235D9AEF7}">
+					<ChildrenList>
+						<Action Name="" ID="{30E838FF-3079-4A7D-AA8E-8EE899230B26}" ShortID="239881481">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Season_NewYear" ID="{F18BAFCA-A6BB-4D69-9A54-15EA0DDD6341}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Lobby" ID="{76CA1352-5842-48AE-853E-73037FDFA752}">
+					<ChildrenList>
+						<Action Name="" ID="{FB014285-41E2-4133-A4E9-B9BC69D1F0E7}" ShortID="747111576">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lobby" ID="{0F2C1D34-856D-40D0-BC68-7F942A935624}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Shout" ID="{A042A68A-1510-4B26-AF1D-611C7A3DDE2E}">
+					<ChildrenList>
+						<Action Name="" ID="{EB608EA7-2976-4FB5-AC2B-B192B6B7F31D}" ShortID="527384622">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shout" ID="{7EA13B26-C3E5-43BA-B793-A104601B0BD4}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Hurt" ID="{976BADE2-1871-4EF5-82E1-F77B5F0E7867}">
+					<ChildrenList>
+						<Action Name="" ID="{82956159-4D87-4E9A-B331-3826FE470961}" ShortID="641422690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hurt" ID="{C62A2D0F-FAAB-4946-B943-2665CF709527}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Block" ID="{81974D57-8A13-471D-A865-E8BE151C23CB}">
+					<ChildrenList>
+						<Action Name="" ID="{371BB18D-8E62-4777-8495-597E5927E63A}" ShortID="667391945">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Battle_Defense_1" ID="{D6C3EDC3-BB2A-4131-91A2-8EB1405E96E4}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Defeat" ID="{EE32C314-CC5C-4754-96D1-008E8D305BF4}">
+					<ChildrenList>
+						<Action Name="" ID="{A1F08A9A-DFFE-4504-908D-9E3F2E94B31D}" ShortID="476768224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Defeat" ID="{FA813EFC-3F60-41DC-92DE-00F7C6B2A268}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Spawn" ID="{0FE9EBA3-4233-4E85-92FC-5FE1D64F9550}">
+					<ChildrenList>
+						<Action Name="" ID="{F38BEC6B-173E-4F1C-B9D8-9382CDF52870}" ShortID="308350755">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spawn" ID="{56809FEC-D9CE-4400-AE57-1465D1645AD7}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Victory_1" ID="{3808E66F-9ADC-42E6-B3CA-D0581DE74A1B}">
+					<ChildrenList>
+						<Action Name="" ID="{6F67005C-BA7D-4F1B-B82B-20D8EBFFAC2B}" ShortID="651416987">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Battle_Victory_1" ID="{5EAA61A6-C39B-4300-90A2-66DAD41EF72D}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Victory_2" ID="{0CD76CAA-1866-4800-9C19-6671A5596878}">
+					<ChildrenList>
+						<Action Name="" ID="{314549DB-27CB-463C-B7C0-1E1FF64876E1}" ShortID="670958792">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Battle_Victory_2" ID="{08405B08-1370-4795-9170-61EED100B416}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Victory_3" ID="{ADB74426-2D15-4123-A59C-644478AA7570}">
+					<ChildrenList>
+						<Action Name="" ID="{C493B139-100D-4545-A5A3-D93E84EEB3BD}" ShortID="639338250">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Tactic_Victory_1" ID="{740C698B-E468-4D45-8892-3F23C8BF4207}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Victory_4" ID="{1F821039-7D92-4B6D-9330-86CCA49DF4F9}">
+					<ChildrenList>
+						<Action Name="" ID="{46CA3B4A-D07B-4DAC-B2ED-70B9589CFBC2}" ShortID="226219844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Tactic_Victory_2" ID="{14005BFA-08F6-49D7-BE11-900B08A9F67C}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_ExWeapon_Get" ID="{2975E5D1-04D1-4733-8856-F97F1684951C}">
+					<ChildrenList>
+						<Action Name="" ID="{8029C95D-5652-4335-A6EF-C1A4FDD6148F}" ShortID="1004897066">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_ExWeapon_Get" ID="{1850BD94-B9DD-49B9-9C05-0E7E60BCDB4E}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Levelup" ID="{1F4B3670-D643-4215-9078-7B077D5A5833}">
+					<ChildrenList>
+						<Action Name="" ID="{780A52A0-0FFA-402A-B71C-DCDE90BF6A7F}" ShortID="400378436">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Levelup" ID="{6B56A383-423D-4047-A4CF-900FE56DDA24}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Relationship_1" ID="{D0F0E34A-7BC3-406F-BAD5-914B90BEDE3F}">
+					<ChildrenList>
+						<Action Name="" ID="{C4993CF2-F908-4DDE-9CB6-797DA52620F7}" ShortID="106392011">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Relationship_Up_1" ID="{F78F6E1A-FF27-4E2B-8235-4DD3DC514A15}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Relationship_2" ID="{9F375107-F5F1-4590-8BBE-2176A5A74916}">
+					<ChildrenList>
+						<Action Name="" ID="{A7AC8D12-5D15-43AC-837B-AC6323CACC0A}" ShortID="83202866">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Relationship_Up_2" ID="{8C54B47F-EAF1-41CA-8640-913D0B4EF339}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Relationship_3" ID="{28A1BB0F-80E6-48BA-8626-D7749F91DE1D}">
+					<ChildrenList>
+						<Action Name="" ID="{0C675F0A-0FB3-4675-9E17-2FC09D71327C}" ShortID="270401099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Relationship_Up_3" ID="{8A23D0E7-5425-444F-9F3A-0533B78DE8AE}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Relationship_4" ID="{72078381-7B88-4BBC-9B6D-B10907B80F6D}">
+					<ChildrenList>
+						<Action Name="" ID="{BAF48145-71FF-43D1-B6C8-0B67700E9AE9}" ShortID="801128355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Relationship_Up_4" ID="{D32DFC34-2CA4-4868-84DC-E6FB742EDD47}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Covered" ID="{EB4C9D9A-1EBB-4AD0-A080-8F71DAD1F32F}">
+					<ChildrenList>
+						<Action Name="" ID="{E69826AA-E75E-46D4-A14C-CFEBE4E0C790}" ShortID="796795297">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Battle_Covered_1" ID="{9C7F1E13-AACE-4D38-A17A-1B0735728243}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Memorial_5" ID="{B13C1FCC-9CD6-49A2-8E2C-91F670B73EE1}">
+					<ChildrenList>
+						<Action Name="" ID="{269D2D66-F683-4A64-9C97-8FBEA358F776}" ShortID="609500629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Memorial5" ID="{877F4D49-F663-473C-96D7-23C6F8A8B943}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Memorial_1_1" ID="{44B3D4AF-95B2-41A8-9FCB-5089F660075D}">
+					<ChildrenList>
+						<Action Name="" ID="{EBB9FE68-EC90-4BDC-891C-2060BCF8FFEF}" ShortID="574574118">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_MemorialLobby_1_1" ID="{8FFD8CE4-B60E-45CF-9A30-BD8451C312F6}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Memorial_2_2" ID="{B01235BC-E888-4212-A0DD-E41EB7CA65C6}">
+					<ChildrenList>
+						<Action Name="" ID="{18685E99-F42D-4156-8CD7-48B3E3D5E30F}" ShortID="667302617">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_MemorialLobby_2_2" ID="{0156A2BA-1F4B-4203-BF96-CD18896A3A6F}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_EX_3" ID="{4F3D786D-383F-4B97-A6DB-9B21CDE2E884}">
+					<ChildrenList>
+						<Action Name="" ID="{EB571935-FD6F-44D9-ADF0-AE39FBF10142}" ShortID="259439865">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_ExSkill_3" ID="{E8A49329-74E7-46F2-A287-69FCE9F64623}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Normal_CommonSkill" ID="{C17D630D-C8BE-472C-A13B-E438FD32AE01}">
+					<ChildrenList>
+						<Action Name="" ID="{10BDCEB7-F4B4-4C56-895C-C6F531D3421E}" ShortID="599037618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_CommonSkill" ID="{7CA20C06-80E9-4483-BB96-65D989EA8492}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Normal_EX_1" ID="{95EC49A2-4B8D-4B09-B5BC-A1BE82788AD2}">
+					<ChildrenList>
+						<Action Name="" ID="{B20C0F4A-A3D4-4777-BE99-0AD224BC5B69}" ShortID="932627289">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_ExSkill_1" ID="{736AB2C9-41EC-456F-A016-A1AB18ADA86F}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Normal_EX_2" ID="{7C09918E-C7E6-4BFC-B317-71A0056FEF74}">
+					<ChildrenList>
+						<Action Name="" ID="{F31F7AF5-23E1-4E88-B843-A9A898C630E3}" ShortID="102758917">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_ExSkill_2" ID="{97E2F1F6-3035-4F96-877D-2136F666A94D}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Normal_EX_3" ID="{31A78009-7F6C-452C-AA9A-8BF49A233284}">
+					<ChildrenList>
+						<Action Name="" ID="{159E0BFF-34DE-4AF8-B892-DA452C4AC29F}" ShortID="166324319">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_ExSkill_3" ID="{F04F822C-F358-4843-9C64-B7EF54AC386C}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Normal_EX_Level_1" ID="{02A9311D-AFAC-429F-A03D-04B113DE5476}">
+					<ChildrenList>
+						<Action Name="" ID="{3EE713C8-4478-4ED0-BF76-1AE9753A914D}" ShortID="40654005">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_ExSkill_Level_1" ID="{EDB72903-458E-46CC-B748-8FF5965846E0}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Normal_EX_Level_2" ID="{2809F7C5-6DEE-4457-AB5A-B8B09CA85C12}">
+					<ChildrenList>
+						<Action Name="" ID="{24A83EFC-BBD5-470D-B30F-501B6AA60B1F}" ShortID="464967333">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_ExSkill_Level_2" ID="{4036CED6-FE33-4D06-82E6-858DE7FB21B1}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Normal_EX_Level_3" ID="{8DE9A736-B190-47B5-B277-AA74B419A155}">
+					<ChildrenList>
+						<Action Name="" ID="{EBBCF0F0-4426-438D-BB47-89FB54EDBA1E}" ShortID="929475421">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_ExSkill_Level_3" ID="{6646ADEA-59F7-4C05-B879-BE79BD12FAD5}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_CommonSkill" ID="{FF3B6BDF-0893-4D42-B5D9-1034E81C84F9}">
+					<ChildrenList>
+						<Action Name="" ID="{C918F2F0-B88F-4922-A991-8C778ECB7CDB}" ShortID="60885781">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_CommonSkill" ID="{2D1EA3CE-C2E4-41D1-8359-AD2C2EEEAD8C}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_TacticalAction" ID="{395C8858-1169-46D7-B058-F4956663DB2D}">
+					<ChildrenList>
+						<Action Name="" ID="{BF540CA1-F523-4BBA-B4E7-60D347F5CF76}" ShortID="987239266">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Battle_TacticalAction_1" ID="{58025AA9-987E-4A5F-AF47-3965ABD2AB81}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TrackMariCommando_Recovery" ID="{1D76BD62-CA62-419B-8009-A8C12BE2E81C}">
+					<ChildrenList>
+						<Action Name="" ID="{05711849-185B-468E-A4D4-E47CD9BE43F7}" ShortID="977529910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mari_(Sportswear)_Battle_Recovery_1" ID="{19B845A0-373B-48D3-9425-F587307B989A}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

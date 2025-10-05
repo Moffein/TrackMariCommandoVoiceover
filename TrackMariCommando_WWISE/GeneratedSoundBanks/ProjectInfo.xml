@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="TrackMariCommando_WWISE" GUID="{53896413-79DB-4D50-9A52-C9EB075341AE}" Generator="2023.1.4.8496"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{CA37D7B5-68C7-405D-AEA5-4B426D7A4268}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{EAF6DCC1-623F-4E26-99B7-09A64B6D8155}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{E700B1C7-2BAC-4C2D-C4FF-EFA24E3ADF02}</FileHash>
+</ProjectInfo>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7F3A15DD-340D-EF22-59CE-AC32EA50B08A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1662660984" Type="User" Language="SFX" Hash="{AED9656A-AAE0-88AC-5688-09007069823B}">
+			<ShortName>TrackMariCommandoSoundbank</ShortName>
+			<Path>TrackMariCommandoSoundbank.bnk</Path>
+			<Media>
+				<File Id="63275558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Damage_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Damage_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="67879459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Victory_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Victory_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="71683380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Damage_3.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Damage_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="76010175" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Lobby_5.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Lobby_5_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="83388870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_MemorialLobby_1_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_MemorialLobby_1_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="94289448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Tactic_In_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Tactic_In_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="117578447" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Shout_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Shout_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="127020070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Shout_3.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Shout_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="148027011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_CommonSkill.wav</ShortName>
+					<CachePath>SFX/Mari_CommonSkill_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="149724973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Covered_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Covered_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="213752306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Lobby_3.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Lobby_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="243612617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Season_Halloween.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Season_Halloween_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="256491996" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_ExWeapon_Get.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_ExWeapon_Get_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="260273277" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Relationship_Up_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Relationship_Up_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="269283101" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_LogIn_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_LogIn_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="286640390" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Relationship_Up_3.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Relationship_Up_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="288266576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Victory_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Victory_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="291938117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Growup_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Growup_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="303794211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_ExSkill_3.wav</ShortName>
+					<CachePath>SFX/Mari_ExSkill_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="315688302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_LogIn_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_LogIn_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="328899989" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Tactic_Victory_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Tactic_Victory_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="333394283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Relationship_Up_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Relationship_Up_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="334145951" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_TacticalAction_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_TacticalAction_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="344863072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Lobby_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Lobby_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="351360513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Tactic_Victory_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Tactic_Victory_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="384909253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Growup_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Growup_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="401699886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Season_NewYear.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Season_NewYear_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="417118471" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Shout_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Shout_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="421018276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_MemorialLobby_5_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_MemorialLobby_5_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="423262182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_ExSkill_1.wav</ShortName>
+					<CachePath>SFX/Mari_ExSkill_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="447049281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Title.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Title_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="456163617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Defense_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Defense_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="463373368" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Tactic_Defeat_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Tactic_Defeat_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="545546690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_MemorialLobby_5_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_MemorialLobby_5_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="546843385" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_ExSkill_2.wav</ShortName>
+					<CachePath>SFX/Mari_ExSkill_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="578677212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Retire.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Retire_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="638141930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_In_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_In_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="665267608" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_ExSkill_Level_3.wav</ShortName>
+					<CachePath>SFX/Mari_ExSkill_Level_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="696840937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_MemorialLobby_2_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_MemorialLobby_2_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="715620666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_In_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_In_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="763479584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Growup_3.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Growup_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="792185693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_ExSkill_3.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_ExSkill_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="810428112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Lobby_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Lobby_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="824337041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Growup_4.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Growup_4_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="908770860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Season_Xmas.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Season_Xmas_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="943385230" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Season_Birthday.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Season_Birthday_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="946001686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_MemorialLobby_5_3.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_MemorialLobby_5_3_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="971508497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Lobby_4.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Lobby_4_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="975833784" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Tactic_In_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Tactic_In_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="999257064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Tactic_Defeat_1.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Tactic_Defeat_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1004199486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_ExSkill_Level_2.wav</ShortName>
+					<CachePath>SFX/Mari_ExSkill_Level_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1020245799" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_Battle_Damage_2.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_Battle_Damage_2_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1021833981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_ExSkill_Level_1.wav</ShortName>
+					<CachePath>SFX/Mari_ExSkill_Level_1_380E8DD5.wem</CachePath>
+				</File>
+				<File Id="1072994556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mari_(Sportswear)_CommonSkill.wav</ShortName>
+					<CachePath>SFX/Mari_(Sportswear)_CommonSkill_380E8DD5.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1342149206" Name="Play_TrackMariCommando_Block">
+					<MediaRefs>
+						<MediaRef Id="456163617"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1128644195" Name="Play_TrackMariCommando_CommonSkill">
+					<MediaRefs>
+						<MediaRef Id="1072994556"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="317494299" Name="Play_TrackMariCommando_Covered">
+					<MediaRefs>
+						<MediaRef Id="149724973"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1699251178" Name="Play_TrackMariCommando_Defeat">
+					<MediaRefs>
+						<MediaRef Id="463373368"/>
+						<MediaRef Id="578677212"/>
+						<MediaRef Id="999257064"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="111407878" Name="Play_TrackMariCommando_EX_3">
+					<MediaRefs>
+						<MediaRef Id="792185693"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="166948537" Name="Play_TrackMariCommando_ExWeapon_Get">
+					<MediaRefs>
+						<MediaRef Id="256491996"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2844466792" Name="Play_TrackMariCommando_Hurt">
+					<MediaRefs>
+						<MediaRef Id="63275558"/>
+						<MediaRef Id="71683380"/>
+						<MediaRef Id="1020245799"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3094711560" Name="Play_TrackMariCommando_Levelup">
+					<MediaRefs>
+						<MediaRef Id="291938117"/>
+						<MediaRef Id="384909253"/>
+						<MediaRef Id="763479584"/>
+						<MediaRef Id="824337041"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3108890049" Name="Play_TrackMariCommando_Lobby">
+					<MediaRefs>
+						<MediaRef Id="76010175"/>
+						<MediaRef Id="213752306"/>
+						<MediaRef Id="269283101"/>
+						<MediaRef Id="315688302"/>
+						<MediaRef Id="344863072"/>
+						<MediaRef Id="810428112"/>
+						<MediaRef Id="971508497"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2333502336" Name="Play_TrackMariCommando_Lobby_bday">
+					<MediaRefs>
+						<MediaRef Id="943385230"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2609784945" Name="Play_TrackMariCommando_Lobby_Halloween">
+					<MediaRefs>
+						<MediaRef Id="243612617"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2583086309" Name="Play_TrackMariCommando_Lobby_Newyear">
+					<MediaRefs>
+						<MediaRef Id="401699886"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="415715485" Name="Play_TrackMariCommando_Lobby_xmas">
+					<MediaRefs>
+						<MediaRef Id="908770860"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3225295969" Name="Play_TrackMariCommando_Memorial_1_1">
+					<MediaRefs>
+						<MediaRef Id="83388870"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2151675413" Name="Play_TrackMariCommando_Memorial_2_2">
+					<MediaRefs>
+						<MediaRef Id="696840937"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2166170737" Name="Play_TrackMariCommando_Memorial_5">
+					<MediaRefs>
+						<MediaRef Id="421018276"/>
+						<MediaRef Id="545546690"/>
+						<MediaRef Id="946001686"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2358752909" Name="Play_TrackMariCommando_Normal_CommonSkill">
+					<MediaRefs>
+						<MediaRef Id="148027011"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1353465694" Name="Play_TrackMariCommando_Normal_EX_1">
+					<MediaRefs>
+						<MediaRef Id="423262182"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1353465693" Name="Play_TrackMariCommando_Normal_EX_2">
+					<MediaRefs>
+						<MediaRef Id="546843385"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1353465692" Name="Play_TrackMariCommando_Normal_EX_3">
+					<MediaRefs>
+						<MediaRef Id="303794211"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3406050721" Name="Play_TrackMariCommando_Normal_EX_Level_1">
+					<MediaRefs>
+						<MediaRef Id="1021833981"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3406050722" Name="Play_TrackMariCommando_Normal_EX_Level_2">
+					<MediaRefs>
+						<MediaRef Id="1004199486"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3406050723" Name="Play_TrackMariCommando_Normal_EX_Level_3">
+					<MediaRefs>
+						<MediaRef Id="665267608"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4254797917" Name="Play_TrackMariCommando_Relationship_1">
+					<MediaRefs>
+						<MediaRef Id="260273277"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4254797918" Name="Play_TrackMariCommando_Relationship_2">
+					<MediaRefs>
+						<MediaRef Id="333394283"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4254797919" Name="Play_TrackMariCommando_Relationship_3">
+					<MediaRefs>
+						<MediaRef Id="286640390"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4254797912" Name="Play_TrackMariCommando_Relationship_4">
+					<MediaRefs>
+						<MediaRef Id="792185693"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2525676822" Name="Play_TrackMariCommando_Shout">
+					<MediaRefs>
+						<MediaRef Id="117578447"/>
+						<MediaRef Id="127020070"/>
+						<MediaRef Id="417118471"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4215552776" Name="Play_TrackMariCommando_Spawn">
+					<MediaRefs>
+						<MediaRef Id="94289448"/>
+						<MediaRef Id="638141930"/>
+						<MediaRef Id="715620666"/>
+						<MediaRef Id="975833784"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="869391730" Name="Play_TrackMariCommando_TacticalAction">
+					<MediaRefs>
+						<MediaRef Id="334145951"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1667883123" Name="Play_TrackMariCommando_Title">
+					<MediaRefs>
+						<MediaRef Id="447049281"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3157785103" Name="Play_TrackMariCommando_Victory_1">
+					<MediaRefs>
+						<MediaRef Id="288266576"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3157785100" Name="Play_TrackMariCommando_Victory_2">
+					<MediaRefs>
+						<MediaRef Id="67879459"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3157785101" Name="Play_TrackMariCommando_Victory_3">
+					<MediaRefs>
+						<MediaRef Id="328899989"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3157785098" Name="Play_TrackMariCommando_Victory_4">
+					<MediaRefs>
+						<MediaRef Id="351360513"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B25A4D8F-65A6-E16A-2863-C73AF5A980D1}</FileHash>
+</SoundBanksInfo>

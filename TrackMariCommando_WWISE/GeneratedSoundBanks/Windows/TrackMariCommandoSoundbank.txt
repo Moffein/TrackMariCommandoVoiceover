@@ -1,0 +1,96 @@
+Event	ID	Name			Wwise Object Path	Notes
+	111407878	Play_TrackMariCommando_EX_3			\Default Work Unit\Play_TrackMariCommando_EX_3	
+	166948537	Play_TrackMariCommando_ExWeapon_Get			\Default Work Unit\Play_TrackMariCommando_ExWeapon_Get	
+	317494299	Play_TrackMariCommando_Covered			\Default Work Unit\Play_TrackMariCommando_Covered	
+	415715485	Play_TrackMariCommando_Lobby_xmas			\Default Work Unit\Play_TrackMariCommando_Lobby_xmas	
+	869391730	Play_TrackMariCommando_TacticalAction			\Default Work Unit\Play_TrackMariCommando_TacticalAction	
+	1128644195	Play_TrackMariCommando_CommonSkill			\Default Work Unit\Play_TrackMariCommando_CommonSkill	
+	1342149206	Play_TrackMariCommando_Block			\Default Work Unit\Play_TrackMariCommando_Block	
+	1353465692	Play_TrackMariCommando_Normal_EX_3			\Default Work Unit\Play_TrackMariCommando_Normal_EX_3	
+	1353465693	Play_TrackMariCommando_Normal_EX_2			\Default Work Unit\Play_TrackMariCommando_Normal_EX_2	
+	1353465694	Play_TrackMariCommando_Normal_EX_1			\Default Work Unit\Play_TrackMariCommando_Normal_EX_1	
+	1667883123	Play_TrackMariCommando_Title			\Default Work Unit\Play_TrackMariCommando_Title	
+	1699251178	Play_TrackMariCommando_Defeat			\Default Work Unit\Play_TrackMariCommando_Defeat	
+	2151675413	Play_TrackMariCommando_Memorial_2_2			\Default Work Unit\Play_TrackMariCommando_Memorial_2_2	
+	2166170737	Play_TrackMariCommando_Memorial_5			\Default Work Unit\Play_TrackMariCommando_Memorial_5	
+	2333502336	Play_TrackMariCommando_Lobby_bday			\Default Work Unit\Play_TrackMariCommando_Lobby_bday	
+	2358752909	Play_TrackMariCommando_Normal_CommonSkill			\Default Work Unit\Play_TrackMariCommando_Normal_CommonSkill	
+	2525676822	Play_TrackMariCommando_Shout			\Default Work Unit\Play_TrackMariCommando_Shout	
+	2583086309	Play_TrackMariCommando_Lobby_Newyear			\Default Work Unit\Play_TrackMariCommando_Lobby_Newyear	
+	2609784945	Play_TrackMariCommando_Lobby_Halloween			\Default Work Unit\Play_TrackMariCommando_Lobby_Halloween	
+	2844466792	Play_TrackMariCommando_Hurt			\Default Work Unit\Play_TrackMariCommando_Hurt	
+	3094711560	Play_TrackMariCommando_Levelup			\Default Work Unit\Play_TrackMariCommando_Levelup	
+	3108890049	Play_TrackMariCommando_Lobby			\Default Work Unit\Play_TrackMariCommando_Lobby	
+	3157785098	Play_TrackMariCommando_Victory_4			\Default Work Unit\Play_TrackMariCommando_Victory_4	
+	3157785100	Play_TrackMariCommando_Victory_2			\Default Work Unit\Play_TrackMariCommando_Victory_2	
+	3157785101	Play_TrackMariCommando_Victory_3			\Default Work Unit\Play_TrackMariCommando_Victory_3	
+	3157785103	Play_TrackMariCommando_Victory_1			\Default Work Unit\Play_TrackMariCommando_Victory_1	
+	3225295969	Play_TrackMariCommando_Memorial_1_1			\Default Work Unit\Play_TrackMariCommando_Memorial_1_1	
+	3406050721	Play_TrackMariCommando_Normal_EX_Level_1			\Default Work Unit\Play_TrackMariCommando_Normal_EX_Level_1	
+	3406050722	Play_TrackMariCommando_Normal_EX_Level_2			\Default Work Unit\Play_TrackMariCommando_Normal_EX_Level_2	
+	3406050723	Play_TrackMariCommando_Normal_EX_Level_3			\Default Work Unit\Play_TrackMariCommando_Normal_EX_Level_3	
+	4215552776	Play_TrackMariCommando_Spawn			\Default Work Unit\Play_TrackMariCommando_Spawn	
+	4254797912	Play_TrackMariCommando_Relationship_4			\Default Work Unit\Play_TrackMariCommando_Relationship_4	
+	4254797917	Play_TrackMariCommando_Relationship_1			\Default Work Unit\Play_TrackMariCommando_Relationship_1	
+	4254797918	Play_TrackMariCommando_Relationship_2			\Default Work Unit\Play_TrackMariCommando_Relationship_2	
+	4254797919	Play_TrackMariCommando_Relationship_3			\Default Work Unit\Play_TrackMariCommando_Relationship_3	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	63275558	Mari_(Sportswear)_Battle_Damage_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Damage_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Hurt\Mari_(Sportswear)_Battle_Damage_1		24425
+	67879459	Mari_(Sportswear)_Battle_Victory_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Victory_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Battle_Victory_2		107922
+	71683380	Mari_(Sportswear)_Battle_Damage_3	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Damage_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Hurt\Mari_(Sportswear)_Battle_Damage_3		19311
+	76010175	Mari_(Sportswear)_Lobby_5	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Lobby_5_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Mari_(Sportswear)_Lobby_5		171551
+	83388870	Mari_(Sportswear)_MemorialLobby_1_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_MemorialLobby_1_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_MemorialLobby_1_1		132526
+	94289448	Mari_(Sportswear)_Tactic_In_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Tactic_In_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Spawn\Mari_(Sportswear)_Tactic_In_2		50539
+	117578447	Mari_(Sportswear)_Battle_Shout_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Shout_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Shout\Mari_(Sportswear)_Battle_Shout_1		23601
+	127020070	Mari_(Sportswear)_Battle_Shout_3	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Shout_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Shout\Mari_(Sportswear)_Battle_Shout_3		32923
+	148027011	Mari_CommonSkill	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_CommonSkill_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_CommonSkill		48032
+	149724973	Mari_(Sportswear)_Battle_Covered_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Covered_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Battle_Covered_1		32924
+	213752306	Mari_(Sportswear)_Lobby_3	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Lobby_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Mari_(Sportswear)_Lobby_3		183266
+	243612617	Mari_(Sportswear)_Season_Halloween	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Season_Halloween_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Season_Halloween		136898
+	256491996	Mari_(Sportswear)_ExWeapon_Get	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_ExWeapon_Get_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_ExWeapon_Get		219678
+	260273277	Mari_(Sportswear)_Relationship_Up_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Relationship_Up_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Relationship_Up_1		159351
+	269283101	Mari_(Sportswear)_LogIn_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_LogIn_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Mari_(Sportswear)_LogIn_1		179991
+	286640390	Mari_(Sportswear)_Relationship_Up_3	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Relationship_Up_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Relationship_Up_3		147074
+	288266576	Mari_(Sportswear)_Battle_Victory_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Victory_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Battle_Victory_1		80668
+	291938117	Mari_(Sportswear)_Growup_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Growup_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Levelup\Mari_(Sportswear)_Growup_1		148843
+	303794211	Mari_ExSkill_3	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_ExSkill_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_ExSkill_3		38154
+	315688302	Mari_(Sportswear)_LogIn_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_LogIn_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Mari_(Sportswear)_LogIn_2		192641
+	328899989	Mari_(Sportswear)_Tactic_Victory_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Tactic_Victory_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Tactic_Victory_1		93698
+	333394283	Mari_(Sportswear)_Relationship_Up_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Relationship_Up_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Relationship_Up_2		172038
+	334145951	Mari_(Sportswear)_Battle_TacticalAction_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_TacticalAction_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Battle_TacticalAction_1		38446
+	344863072	Mari_(Sportswear)_Lobby_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Lobby_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Mari_(Sportswear)_Lobby_1		164161
+	351360513	Mari_(Sportswear)_Tactic_Victory_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Tactic_Victory_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Tactic_Victory_2		70649
+	384909253	Mari_(Sportswear)_Growup_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Growup_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Levelup\Mari_(Sportswear)_Growup_2		138931
+	401699886	Mari_(Sportswear)_Season_NewYear	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Season_NewYear_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Season_NewYear		230100
+	417118471	Mari_(Sportswear)_Battle_Shout_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Shout_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Shout\Mari_(Sportswear)_Battle_Shout_2		16214
+	421018276	Mari_(Sportswear)_MemorialLobby_5_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_MemorialLobby_5_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Memorial5\Mari_(Sportswear)_MemorialLobby_5_1		166818
+	423262182	Mari_ExSkill_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_ExSkill_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_ExSkill_1		34206
+	447049281	Mari_(Sportswear)_Title	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Title_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Title		35182
+	456163617	Mari_(Sportswear)_Battle_Defense_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Defense_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Battle_Defense_1		50095
+	463373368	Mari_(Sportswear)_Tactic_Defeat_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Tactic_Defeat_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Defeat\Mari_(Sportswear)_Tactic_Defeat_2		65604
+	545546690	Mari_(Sportswear)_MemorialLobby_5_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_MemorialLobby_5_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Memorial5\Mari_(Sportswear)_MemorialLobby_5_2		263957
+	546843385	Mari_ExSkill_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_ExSkill_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_ExSkill_2		49261
+	578677212	Mari_(Sportswear)_Battle_Retire	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Retire_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Defeat\Mari_(Sportswear)_Battle_Retire		62473
+	638141930	Mari_(Sportswear)_Battle_In_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_In_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Spawn\Mari_(Sportswear)_Battle_In_1		74868
+	665267608	Mari_ExSkill_Level_3	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_ExSkill_Level_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_ExSkill_Level_3		64817
+	696840937	Mari_(Sportswear)_MemorialLobby_2_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_MemorialLobby_2_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_MemorialLobby_2_2		90499
+	715620666	Mari_(Sportswear)_Battle_In_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_In_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Spawn\Mari_(Sportswear)_Battle_In_2		44424
+	763479584	Mari_(Sportswear)_Growup_3	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Growup_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Levelup\Mari_(Sportswear)_Growup_3		123750
+	792185693	Mari_(Sportswear)_Relationship_Up_4	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_ExSkill_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Relationship_Up_4		59498
+	810428112	Mari_(Sportswear)_Lobby_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Lobby_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Mari_(Sportswear)_Lobby_2		143517
+	824337041	Mari_(Sportswear)_Growup_4	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Growup_4_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Levelup\Mari_(Sportswear)_Growup_4		133006
+	908770860	Mari_(Sportswear)_Season_Xmas	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Season_Xmas_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Season_Xmas		167307
+	943385230	Mari_(Sportswear)_Season_Birthday	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Season_Birthday_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_Season_Birthday		213478
+	946001686	Mari_(Sportswear)_MemorialLobby_5_3	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_MemorialLobby_5_3_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Memorial5\Mari_(Sportswear)_MemorialLobby_5_3		153795
+	971508497	Mari_(Sportswear)_Lobby_4	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Lobby_4_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Lobby\Mari_(Sportswear)_Lobby_4		174536
+	975833784	Mari_(Sportswear)_Tactic_In_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Tactic_In_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Spawn\Mari_(Sportswear)_Tactic_In_1		67270
+	999257064	Mari_(Sportswear)_Tactic_Defeat_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Tactic_Defeat_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Defeat\Mari_(Sportswear)_Tactic_Defeat_1		101263
+	1004199486	Mari_ExSkill_Level_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_ExSkill_Level_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_ExSkill_Level_2		63198
+	1020245799	Mari_(Sportswear)_Battle_Damage_2	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_Battle_Damage_2_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Hurt\Mari_(Sportswear)_Battle_Damage_2		21577
+	1021833981	Mari_ExSkill_Level_1	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_ExSkill_Level_1_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_ExSkill_Level_1		67886
+	1072994556	Mari_(Sportswear)_CommonSkill	D:\Projects\RoR2 Mods\TrackMariCommandoVoiceover\TrackMariCommando_WWISE\.cache\Windows\SFX\Mari_(Sportswear)_CommonSkill_380E8DD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\SFX Mixer\Mari_(Sportswear)_CommonSkill		54039
+

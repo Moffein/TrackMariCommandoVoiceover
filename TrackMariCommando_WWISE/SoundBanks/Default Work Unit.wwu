@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{155C103E-614B-49E0-A12F-22FD51F6763C}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{155C103E-614B-49E0-A12F-22FD51F6763C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="TrackMariCommandoSoundbank" ID="{BFC77D67-0CEB-4D6A-8682-95954F240449}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_TrackMariCommando_Lobby_bday" ID="{6477AB39-482B-403F-B2C2-54974DBE7BD3}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Relationship_1" ID="{D0F0E34A-7BC3-406F-BAD5-914B90BEDE3F}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Victory_3" ID="{ADB74426-2D15-4123-A59C-644478AA7570}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Title" ID="{9F8B6E61-6664-4153-95C2-B2E42DF7A9F7}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Memorial_1_1" ID="{44B3D4AF-95B2-41A8-9FCB-5089F660075D}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Lobby_xmas" ID="{17BE79A2-72E7-41B1-9309-37DF16EC24B5}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Memorial_2_2" ID="{B01235BC-E888-4212-A0DD-E41EB7CA65C6}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Levelup" ID="{1F4B3670-D643-4215-9078-7B077D5A5833}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Normal_EX_Level_1" ID="{02A9311D-AFAC-429F-A03D-04B113DE5476}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Victory_1" ID="{3808E66F-9ADC-42E6-B3CA-D0581DE74A1B}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Normal_EX_Level_2" ID="{2809F7C5-6DEE-4457-AB5A-B8B09CA85C12}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Normal_EX_3" ID="{31A78009-7F6C-452C-AA9A-8BF49A233284}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Relationship_2" ID="{9F375107-F5F1-4590-8BBE-2176A5A74916}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_TacticalAction" ID="{395C8858-1169-46D7-B058-F4956663DB2D}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Block" ID="{81974D57-8A13-471D-A865-E8BE151C23CB}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Normal_CommonSkill" ID="{C17D630D-C8BE-472C-A13B-E438FD32AE01}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_ExWeapon_Get" ID="{2975E5D1-04D1-4733-8856-F97F1684951C}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Defeat" ID="{EE32C314-CC5C-4754-96D1-008E8D305BF4}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Normal_EX_Level_3" ID="{8DE9A736-B190-47B5-B277-AA74B419A155}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Victory_2" ID="{0CD76CAA-1866-4800-9C19-6671A5596878}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Lobby" ID="{76CA1352-5842-48AE-853E-73037FDFA752}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Relationship_3" ID="{28A1BB0F-80E6-48BA-8626-D7749F91DE1D}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Memorial_5" ID="{B13C1FCC-9CD6-49A2-8E2C-91F670B73EE1}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Lobby_Halloween" ID="{E26EE6E0-2B3B-49BA-94E5-ECEBB02C69F9}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Covered" ID="{EB4C9D9A-1EBB-4AD0-A080-8F71DAD1F32F}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Normal_EX_1" ID="{95EC49A2-4B8D-4B09-B5BC-A1BE82788AD2}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Shout" ID="{A042A68A-1510-4B26-AF1D-611C7A3DDE2E}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Victory_4" ID="{1F821039-7D92-4B6D-9330-86CCA49DF4F9}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_EX_3" ID="{4F3D786D-383F-4B97-A6DB-9B21CDE2E884}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Relationship_4" ID="{72078381-7B88-4BBC-9B6D-B10907B80F6D}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Normal_EX_2" ID="{7C09918E-C7E6-4BFC-B317-71A0056FEF74}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Lobby_Newyear" ID="{31F46C95-2A00-4C42-ADAF-457235D9AEF7}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_CommonSkill" ID="{FF3B6BDF-0893-4D42-B5D9-1034E81C84F9}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Spawn" ID="{0FE9EBA3-4233-4E85-92FC-5FE1D64F9550}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TrackMariCommando_Hurt" ID="{976BADE2-1871-4EF5-82E1-F77B5F0E7867}" WorkUnitID="{29D60B0A-D963-4C7D-8C32-6756A4615559}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

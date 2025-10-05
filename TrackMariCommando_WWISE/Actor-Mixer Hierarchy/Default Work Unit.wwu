@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Master Mixer" ID="{408D2D8E-77F4-45B9-8FA9-BEA14EB34F15}" ShortID="847742987">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="SFX Mixer" ID="{9031F0C2-727E-4F47-9D2C-CF33B899913D}" ShortID="37726991">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Voice Att" ID="{939686A2-A319-48FC-BC3A-CB08830D7ECA}" WorkUnitID="{7D2754D2-FC9E-452E-B659-865F74836AB4}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Mari_(Sportswear)_Title" ID="{3955B112-9D72-4AF8-B1CF-3AC6FF0F11B4}" ShortID="626090813">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Title" ID="{7D02B56D-5674-4C71-8CBB-611A0E1991D0}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Title.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="447049281"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Title" ID="{7D02B56D-5674-4C71-8CBB-611A0E1991D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Season_Birthday" ID="{1FB6B8D1-F848-4D3F-A767-20E785B62EB7}" ShortID="1011485788">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Season_Birthday" ID="{BCAF706B-D89A-41E2-AAF6-2C9BA6475182}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Season_Birthday.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="943385230"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Season_Birthday" ID="{BCAF706B-D89A-41E2-AAF6-2C9BA6475182}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Season_Halloween" ID="{0FC06FE9-3799-4DA0-9ED8-CFEB0FFDAC34}" ShortID="565602514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Season_Halloween" ID="{C0C67305-2777-410E-8D98-1469C2EA2909}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Season_Halloween.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="243612617"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Season_Halloween" ID="{C0C67305-2777-410E-8D98-1469C2EA2909}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Season_NewYear" ID="{F18BAFCA-A6BB-4D69-9A54-15EA0DDD6341}" ShortID="655338796">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Season_NewYear" ID="{8779E497-2C5E-40DB-AF52-91D42AB67D11}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Season_NewYear.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="401699886"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Season_NewYear" ID="{8779E497-2C5E-40DB-AF52-91D42AB67D11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Season_Xmas" ID="{6073935E-9744-4BE6-8A14-E11A492191AC}" ShortID="664554106">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Season_Xmas" ID="{2CB9EE0B-457B-41EB-AD1F-83741C3893E7}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Season_Xmas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="908770860"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Season_Xmas" ID="{2CB9EE0B-457B-41EB-AD1F-83741C3893E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Lobby" ID="{0F2C1D34-856D-40D0-BC68-7F942A935624}" ShortID="605286549">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mari_(Sportswear)_Lobby_1" ID="{15062AE3-070E-4228-9448-AACCEE5291F0}" ShortID="726357510">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Lobby_1" ID="{FDA6F7FF-8061-41BB-9208-24A6F3F7F945}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Lobby_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="344863072"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Lobby_1" ID="{FDA6F7FF-8061-41BB-9208-24A6F3F7F945}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Lobby_2" ID="{F2CD09D1-B4ED-4C9E-AAF7-3C9DC33AE754}" ShortID="593702745">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Lobby_2" ID="{322E4C36-5CC9-4B3D-902D-D5B3660EAFA2}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Lobby_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="810428112"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Lobby_2" ID="{322E4C36-5CC9-4B3D-902D-D5B3660EAFA2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Lobby_3" ID="{9D35F6D9-CDE5-4ADE-A971-929E21ED0B17}" ShortID="154778222">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Lobby_3" ID="{2FC3ADC8-6166-4BB5-80CD-43F216F51A4E}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Lobby_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="213752306"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Lobby_3" ID="{2FC3ADC8-6166-4BB5-80CD-43F216F51A4E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Lobby_4" ID="{AAF9F18B-7848-4657-AB4A-647819ED05C9}" ShortID="16242647">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Lobby_4" ID="{9AB51B81-EB10-4CD4-9B06-F1ECE8923C9A}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Lobby_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="971508497"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Lobby_4" ID="{9AB51B81-EB10-4CD4-9B06-F1ECE8923C9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Lobby_5" ID="{02C7F1E0-7CB0-44D1-96CA-30F82A57940D}" ShortID="208353600">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Lobby_5" ID="{436CFA03-FCCB-44F0-9F34-3385CDA83F48}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Lobby_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="76010175"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Lobby_5" ID="{436CFA03-FCCB-44F0-9F34-3385CDA83F48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_LogIn_1" ID="{C589724C-6880-4013-85F7-5A17B8386CB3}" ShortID="131301906">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_LogIn_1" ID="{AD3982BC-44B1-42C6-8D91-5A7DAFD00DAA}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_LogIn_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="269283101"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_LogIn_1" ID="{AD3982BC-44B1-42C6-8D91-5A7DAFD00DAA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_LogIn_2" ID="{2FF5BA94-2579-4488-BCC1-62FFF91B3FF5}" ShortID="510033920">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_LogIn_2" ID="{1DCBAE8A-177A-4BC9-9ED9-239A46144A48}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_LogIn_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="315688302"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_LogIn_2" ID="{1DCBAE8A-177A-4BC9-9ED9-239A46144A48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Shout" ID="{7EA13B26-C3E5-43BA-B793-A104601B0BD4}" ShortID="528179914">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mari_(Sportswear)_Battle_Shout_1" ID="{19E64A54-6797-4686-B17E-0B0BD0D8D85A}" ShortID="478910029">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_Shout_1" ID="{90DFB85C-92DB-463F-B456-CB796BED3A6E}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_Shout_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="117578447"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_Shout_1" ID="{90DFB85C-92DB-463F-B456-CB796BED3A6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Battle_Shout_2" ID="{2D69BEC1-F263-4025-AD7D-642103096E0D}" ShortID="319258380">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_Shout_2" ID="{3C88404F-A0B8-441F-A555-E997B224A469}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_Shout_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="417118471"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_Shout_2" ID="{3C88404F-A0B8-441F-A555-E997B224A469}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Battle_Shout_3" ID="{7599248C-8D95-428E-8BCE-0F67ED51CD11}" ShortID="203797149">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_Shout_3" ID="{FAB7CDB4-D4C8-4754-8C03-116BFDEC345B}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_Shout_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127020070"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_Shout_3" ID="{FAB7CDB4-D4C8-4754-8C03-116BFDEC345B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Hurt" ID="{C62A2D0F-FAAB-4946-B943-2665CF709527}" ShortID="1048911486">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mari_(Sportswear)_Battle_Damage_1" ID="{DD136EC0-D99E-464E-8F69-86CEBE3273B8}" ShortID="836969152">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_Damage_1" ID="{16080465-820B-4531-9929-660CC69D0753}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_Damage_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="63275558"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_Damage_1" ID="{16080465-820B-4531-9929-660CC69D0753}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Battle_Damage_2" ID="{7F06482D-D7AC-4C15-8970-E137593D7642}" ShortID="1060583507">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_Damage_2" ID="{0DBB4BF1-2301-4938-AB76-CC7BB63F77A6}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_Damage_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1020245799"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_Damage_2" ID="{0DBB4BF1-2301-4938-AB76-CC7BB63F77A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Battle_Damage_3" ID="{0457418A-3185-4C8F-950F-BFA0E26BB1B1}" ShortID="661883657">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_Damage_3" ID="{ECD7ECCF-E100-496F-82A6-EC172FC7FDDA}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_Damage_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="71683380"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_Damage_3" ID="{ECD7ECCF-E100-496F-82A6-EC172FC7FDDA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Mari_(Sportswear)_Battle_Defense_1" ID="{D6C3EDC3-BB2A-4131-91A2-8EB1405E96E4}" ShortID="112875208">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Battle_Defense_1" ID="{5550EB37-EF33-4B86-81EA-78CD81961A49}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Battle_Defense_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="456163617"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Battle_Defense_1" ID="{5550EB37-EF33-4B86-81EA-78CD81961A49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Defeat" ID="{FA813EFC-3F60-41DC-92DE-00F7C6B2A268}" ShortID="71038247">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mari_(Sportswear)_Battle_Retire" ID="{8E6CB808-0460-4E51-9FEB-55E5D7667C35}" ShortID="992943504">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_Retire" ID="{3803E1D1-7619-4992-A8FF-F7CADC93EE7F}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_Retire.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578677212"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_Retire" ID="{3803E1D1-7619-4992-A8FF-F7CADC93EE7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Tactic_Defeat_1" ID="{0930CB53-3AE6-4EAA-B829-36C812523B6D}" ShortID="427815487">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Tactic_Defeat_1" ID="{D8455EFF-4F80-4B6F-87E3-ED265D7FE9C1}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Tactic_Defeat_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="999257064"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Tactic_Defeat_1" ID="{D8455EFF-4F80-4B6F-87E3-ED265D7FE9C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Tactic_Defeat_2" ID="{7BB18DBE-9086-4425-99A9-D2C85D338182}" ShortID="103414727">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Tactic_Defeat_2" ID="{34E9E634-76ED-4698-96EA-B4C8ABA4BBB3}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Tactic_Defeat_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="463373368"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Tactic_Defeat_2" ID="{34E9E634-76ED-4698-96EA-B4C8ABA4BBB3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Spawn" ID="{56809FEC-D9CE-4400-AE57-1465D1645AD7}" ShortID="601691658">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mari_(Sportswear)_Battle_In_1" ID="{18486B3E-BC70-48A3-8853-5E20D717F179}" ShortID="600029907">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_In_1" ID="{3B84087F-5C05-4888-9F4B-7D98CD5C7084}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_In_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="638141930"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_In_1" ID="{3B84087F-5C05-4888-9F4B-7D98CD5C7084}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Battle_In_2" ID="{71872538-AF48-4D4A-A22A-BFA95C683B64}" ShortID="176670621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Battle_In_2" ID="{B20D29D9-0D93-4ADD-BDE8-CCDEDD891EF9}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Battle_In_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="715620666"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Battle_In_2" ID="{B20D29D9-0D93-4ADD-BDE8-CCDEDD891EF9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Tactic_In_1" ID="{1290AD49-C675-43D2-A58F-F123BB0A722A}" ShortID="579909139">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Tactic_In_1" ID="{E673D2F4-94A1-435E-88E4-84636D997010}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Tactic_In_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="975833784"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Tactic_In_1" ID="{E673D2F4-94A1-435E-88E4-84636D997010}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Tactic_In_2" ID="{8E16CB45-5392-4270-841D-F1C55D636D82}" ShortID="821416979">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Tactic_In_2" ID="{5367F0AD-10E8-4BCE-95A0-289C4250983F}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Tactic_In_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="94289448"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Tactic_In_2" ID="{5367F0AD-10E8-4BCE-95A0-289C4250983F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Mari_(Sportswear)_Battle_Victory_1" ID="{5EAA61A6-C39B-4300-90A2-66DAD41EF72D}" ShortID="471071415">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Battle_Victory_1" ID="{1FF8A347-2075-4E9F-99F9-5043025F79E2}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Battle_Victory_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="288266576"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Battle_Victory_1" ID="{1FF8A347-2075-4E9F-99F9-5043025F79E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Battle_Victory_2" ID="{08405B08-1370-4795-9170-61EED100B416}" ShortID="589918380">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Battle_Victory_2" ID="{E43AF743-F923-4C12-9576-8F96BC76571C}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Battle_Victory_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="67879459"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Battle_Victory_2" ID="{E43AF743-F923-4C12-9576-8F96BC76571C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Tactic_Victory_1" ID="{740C698B-E468-4D45-8892-3F23C8BF4207}" ShortID="58242564">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Tactic_Victory_1" ID="{B7D17FD4-93AA-44E7-B711-45CBD9EA54C9}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Tactic_Victory_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="328899989"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Tactic_Victory_1" ID="{B7D17FD4-93AA-44E7-B711-45CBD9EA54C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Tactic_Victory_2" ID="{14005BFA-08F6-49D7-BE11-900B08A9F67C}" ShortID="965330298">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Tactic_Victory_2" ID="{A73C8274-576F-4B83-A315-0326C17789AA}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Tactic_Victory_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351360513"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Tactic_Victory_2" ID="{A73C8274-576F-4B83-A315-0326C17789AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_ExWeapon_Get" ID="{1850BD94-B9DD-49B9-9C05-0E7E60BCDB4E}" ShortID="211731735">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_ExWeapon_Get" ID="{4C82BC81-4EBD-493D-B742-5DD3A6F487B9}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_ExWeapon_Get.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="256491996"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_ExWeapon_Get" ID="{4C82BC81-4EBD-493D-B742-5DD3A6F487B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Levelup" ID="{6B56A383-423D-4047-A4CF-900FE56DDA24}" ShortID="657568033">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mari_(Sportswear)_Growup_1" ID="{AEC7D83C-3930-4A78-BE4B-2091D199443C}" ShortID="36479568">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Growup_1" ID="{D7D14A51-CCDE-4483-A8A1-391A08A08AD9}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Growup_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="291938117"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Growup_1" ID="{D7D14A51-CCDE-4483-A8A1-391A08A08AD9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Growup_2" ID="{6D72ECE7-35E6-47DD-81CD-E24ECB1E1648}" ShortID="454883070">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Growup_2" ID="{8DE651F1-A764-4009-A1D7-1D8C85C06E07}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Growup_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="384909253"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Growup_2" ID="{8DE651F1-A764-4009-A1D7-1D8C85C06E07}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Growup_3" ID="{7EA48B1F-C7C5-4307-87B4-5734EE0B24D7}" ShortID="506263415">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Growup_3" ID="{4359C61A-9A65-4E1B-B8E0-76F669D4AB37}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Growup_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="763479584"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Growup_3" ID="{4359C61A-9A65-4E1B-B8E0-76F669D4AB37}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_Growup_4" ID="{4250A9FB-5491-458E-8A99-ABA85B121854}" ShortID="767956704">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_Growup_4" ID="{29DFFBC6-E267-40A5-9F62-182947065BAE}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_Growup_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="824337041"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_Growup_4" ID="{29DFFBC6-E267-40A5-9F62-182947065BAE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Mari_(Sportswear)_Relationship_Up_1" ID="{F78F6E1A-FF27-4E2B-8235-4DD3DC514A15}" ShortID="759140652">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Relationship_Up_1" ID="{8BBAC893-B226-4044-A6C3-B313AC4D0CCE}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Relationship_Up_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="260273277"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Relationship_Up_1" ID="{8BBAC893-B226-4044-A6C3-B313AC4D0CCE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Relationship_Up_2" ID="{8C54B47F-EAF1-41CA-8640-913D0B4EF339}" ShortID="118895315">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Relationship_Up_2" ID="{B17C1AAE-1A70-44FE-866F-05B0517C0118}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Relationship_Up_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="333394283"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Relationship_Up_2" ID="{B17C1AAE-1A70-44FE-866F-05B0517C0118}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Relationship_Up_3" ID="{8A23D0E7-5425-444F-9F3A-0533B78DE8AE}" ShortID="283084573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Relationship_Up_3" ID="{1F020C96-2AE7-4747-B7E8-2095869A2BD9}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Relationship_Up_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="286640390"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Relationship_Up_3" ID="{1F020C96-2AE7-4747-B7E8-2095869A2BD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Relationship_Up_4" ID="{D32DFC34-2CA4-4868-84DC-E6FB742EDD47}" ShortID="959617958">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Relationship_Up_4" ID="{EF448320-2E28-437A-80AB-E2BFA62D9A3C}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Relationship_Up_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="643278197"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Mari_(Sportswear)_ExSkill_3" ID="{954655B9-75BF-43B0-B8EC-F314250D3801}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_ExSkill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="792185693"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_ExSkill_3" ID="{954655B9-75BF-43B0-B8EC-F314250D3801}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Battle_Covered_1" ID="{9C7F1E13-AACE-4D38-A17A-1B0735728243}" ShortID="63077564">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Battle_Covered_1" ID="{90F236A5-4127-4C47-9600-DC7EDBA587CA}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Battle_Covered_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="149724973"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Battle_Covered_1" ID="{90F236A5-4127-4C47-9600-DC7EDBA587CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Memorial5" ID="{877F4D49-F663-473C-96D7-23C6F8A8B943}" ShortID="710965555">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mari_(Sportswear)_MemorialLobby_5_1" ID="{6CCE54E1-16B7-4125-BCD6-6AAE3946AA46}" ShortID="277975990">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_MemorialLobby_5_1" ID="{A709F1BE-CC0A-4134-B9CF-6DDFDC22CB0F}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_MemorialLobby_5_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="421018276"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_MemorialLobby_5_1" ID="{A709F1BE-CC0A-4134-B9CF-6DDFDC22CB0F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_MemorialLobby_5_2" ID="{38E714E1-2928-4549-BD62-D8EA60D5A6E9}" ShortID="487061396">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_MemorialLobby_5_2" ID="{31EEA57D-E825-49A6-958F-7DAB7F688C33}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_MemorialLobby_5_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="545546690"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_MemorialLobby_5_2" ID="{31EEA57D-E825-49A6-958F-7DAB7F688C33}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mari_(Sportswear)_MemorialLobby_5_3" ID="{A0819E57-4AD3-4BA2-A53C-B140E8CC2EF9}" ShortID="424793854">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mari_(Sportswear)_MemorialLobby_5_3" ID="{A41FC628-DC40-4C2F-9343-5555C4A6F27B}">
+													<Language>SFX</Language>
+													<AudioFile>Mari_(Sportswear)_MemorialLobby_5_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="946001686"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mari_(Sportswear)_MemorialLobby_5_3" ID="{A41FC628-DC40-4C2F-9343-5555C4A6F27B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Mari_(Sportswear)_MemorialLobby_5_1" ID="{6CCE54E1-16B7-4125-BCD6-6AAE3946AA46}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Mari_(Sportswear)_MemorialLobby_5_2" ID="{38E714E1-2928-4549-BD62-D8EA60D5A6E9}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Mari_(Sportswear)_MemorialLobby_5_3" ID="{A0819E57-4AD3-4BA2-A53C-B140E8CC2EF9}" WorkUnitID="{9AA364B4-47CB-4B35-97EB-222E1DBAFC07}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<Sound Name="Mari_(Sportswear)_MemorialLobby_1_1" ID="{8FFD8CE4-B60E-45CF-9A30-BD8451C312F6}" ShortID="872942593">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_MemorialLobby_1_1" ID="{C040E640-0BA7-47A7-BE68-5C1BBAC82158}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_MemorialLobby_1_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83388870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_MemorialLobby_1_1" ID="{C040E640-0BA7-47A7-BE68-5C1BBAC82158}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_MemorialLobby_2_2" ID="{0156A2BA-1F4B-4203-BF96-CD18896A3A6F}" ShortID="305043608">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_MemorialLobby_2_2" ID="{DAA071E2-0840-4A42-B07D-495F6C9FFD56}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_MemorialLobby_2_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696840937"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_MemorialLobby_2_2" ID="{DAA071E2-0840-4A42-B07D-495F6C9FFD56}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_ExSkill_3" ID="{E8A49329-74E7-46F2-A287-69FCE9F64623}" ShortID="357417744">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_ExSkill_3" ID="{E4702880-351A-4924-B787-4FC4941A0E06}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_ExSkill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="792185693"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_ExSkill_3" ID="{E4702880-351A-4924-B787-4FC4941A0E06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_CommonSkill" ID="{7CA20C06-80E9-4483-BB96-65D989EA8492}" ShortID="100134938">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_CommonSkill" ID="{83F8A52E-8E6D-4614-B3F3-CCA268056087}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_CommonSkill.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="148027011"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_CommonSkill" ID="{83F8A52E-8E6D-4614-B3F3-CCA268056087}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_ExSkill_1" ID="{736AB2C9-41EC-456F-A016-A1AB18ADA86F}" ShortID="216465203">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_ExSkill_1" ID="{885FD50D-3A97-41FE-A02C-7AF44E3F2C85}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_ExSkill_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="423262182"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_ExSkill_1" ID="{885FD50D-3A97-41FE-A02C-7AF44E3F2C85}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_ExSkill_2" ID="{97E2F1F6-3035-4F96-877D-2136F666A94D}" ShortID="679978003">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_ExSkill_2" ID="{34EBDF94-BD4F-42FE-BB07-29D5235492A3}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_ExSkill_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546843385"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_ExSkill_2" ID="{34EBDF94-BD4F-42FE-BB07-29D5235492A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_ExSkill_3" ID="{F04F822C-F358-4843-9C64-B7EF54AC386C}" ShortID="775577868">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_ExSkill_3" ID="{DE69E313-CA2A-4305-A2D5-5F7BBFAC7492}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_ExSkill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="303794211"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_ExSkill_3" ID="{DE69E313-CA2A-4305-A2D5-5F7BBFAC7492}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_ExSkill_Level_1" ID="{EDB72903-458E-46CC-B748-8FF5965846E0}" ShortID="955062385">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_ExSkill_Level_1" ID="{05FD5A97-6476-4F6C-9033-4353F1EFE327}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_ExSkill_Level_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1021833981"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_ExSkill_Level_1" ID="{05FD5A97-6476-4F6C-9033-4353F1EFE327}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_ExSkill_Level_2" ID="{4036CED6-FE33-4D06-82E6-858DE7FB21B1}" ShortID="664226566">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_ExSkill_Level_2" ID="{ED4EB28D-ACE5-4104-9AE1-00C5E48E9E02}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_ExSkill_Level_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1004199486"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_ExSkill_Level_2" ID="{ED4EB28D-ACE5-4104-9AE1-00C5E48E9E02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_ExSkill_Level_3" ID="{6646ADEA-59F7-4C05-B879-BE79BD12FAD5}" ShortID="430628759">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_ExSkill_Level_3" ID="{70CBD3F2-D8BA-4D7A-BB44-A812BFAAD5F3}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_ExSkill_Level_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665267608"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_ExSkill_Level_3" ID="{70CBD3F2-D8BA-4D7A-BB44-A812BFAAD5F3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Battle_TacticalAction_1" ID="{58025AA9-987E-4A5F-AF47-3965ABD2AB81}" ShortID="84757698">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Battle_TacticalAction_1" ID="{90FCFABF-4B3F-426C-B433-53387BB30A87}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Battle_TacticalAction_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="334145951"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Battle_TacticalAction_1" ID="{90FCFABF-4B3F-426C-B433-53387BB30A87}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_CommonSkill" ID="{2D1EA3CE-C2E4-41D1-8359-AD2C2EEEAD8C}" ShortID="962010423">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_CommonSkill" ID="{0A289A81-709B-45A9-B350-F1DB8E2C3A0C}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_CommonSkill.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1072994556"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_CommonSkill" ID="{0A289A81-709B-45A9-B350-F1DB8E2C3A0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mari_(Sportswear)_Battle_Recovery_1" ID="{19B845A0-373B-48D3-9425-F587307B989A}" ShortID="1010363033">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B1183972-F376-43C8-A9D6-A225E46874C3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F81F3D49-5D3F-4E80-A1C4-D7BBD40960CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mari_(Sportswear)_Battle_Recovery_1" ID="{A8F19190-9134-4DE0-9B31-83C26476EEBE}">
+											<Language>SFX</Language>
+											<AudioFile>Mari_(Sportswear)_Battle_Recovery_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="42188537"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mari_(Sportswear)_Battle_Recovery_1" ID="{A8F19190-9134-4DE0-9B31-83C26476EEBE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{9EB884C1-A9F0-4770-AD63-06B452DD84FB}" ShortID="621818444">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Volume_SFX" ID="{34A37D26-D75C-48F2-BC62-AC4F3ED39D06}" WorkUnitID="{BA60B4D5-6968-431E-8AF4-CC072592A873}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{C76D8654-293B-448D-BDFD-71342A501E59}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
