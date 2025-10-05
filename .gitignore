@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Original Soundfiles
+/Original Soundfiles Normal
+/wav convert
+/wav convert normal
