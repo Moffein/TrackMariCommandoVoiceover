@@ -19,6 +19,7 @@ namespace TrackMariCommandoVoiceover.Components
         private float lowHealthCooldown = 0f;
         private float shrineFailCooldown = 0f;
         private float specialCooldown = 0f;
+        private float utilityCooldown = 0f;
 
         private bool acquiredScepter = false;
 
@@ -35,6 +36,7 @@ namespace TrackMariCommandoVoiceover.Components
             if (blockedCooldown > 0f) blockedCooldown -= Time.fixedDeltaTime;
             if (lowHealthCooldown > 0f) lowHealthCooldown -= Time.fixedDeltaTime;
             if (shrineFailCooldown > 0f) shrineFailCooldown -= Time.fixedDeltaTime;
+            if (utilityCooldown > 0f) utilityCooldown -= Time.fixedDeltaTime;
             if (specialCooldown > 0f) specialCooldown -= Time.fixedDeltaTime;
         }
 
@@ -143,7 +145,9 @@ namespace TrackMariCommandoVoiceover.Components
 
         public override void PlayUtilityAuthority(GenericSkill skill)
         {
-            TryPlayNetworkSound(nseShout, 0f, false);
+            if (utilityCooldown > 0f) return;
+            bool played = TryPlayNetworkSound(nseShout, 0f, false);
+            if (played) utilityCooldown = 20f;
         }
 
         public override void PlayVictory()
